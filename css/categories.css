@@ -105,10 +105,9 @@ section:hover {
     width: 98%;
   }
   section {
-    border-radius: none;
-    width: 40%;
+    width: 44%;
     height: 70%;
-    margin: 1%;
+    margin-bottom: 1%;
   }
   article {
     position: relative;

@@ -22,12 +22,12 @@ body {
 nav {
   display: flex;
 }
-
 ul {
   display: flex;
   position: fixed;
   justify-content: space-evenly;
   list-style: none;
+  background-color: var(--white);
   width: 100vw;
   z-index: 2;
 }
@@ -53,6 +53,8 @@ li {
 #homePageBG img {
   width: 90vw;
   height: 80vh;
+  border-radius: 0%;
+  /* opacity: 0.9; */
 }
 #homePageBG h2 {
   position: absolute;
@@ -62,7 +64,6 @@ li {
   box-shadow: 4px 4px 4px 4px var(--black);
   color: var(--white);
 }
-
 #departCont {
   display: grid;
   grid-template-columns: repeat(2, 1fr);

@@ -1,10 +1,14 @@
 * {
   margin: 0;
   padding: 0;
-  /* background-color: #6c584c; */
+}
+#bgImage {
+  width: 100vw;
+  height: 100%;
+  opacity: 0.7;
 }
 #cartTableDiv {
-  padding: 8%;
+  padding-top: 8%;
 }
 #table {
   position: relative;
@@ -18,7 +22,6 @@
 #tableTitle {
   position: relative;
 }
-
 td {
   width: 25%;
   height: 30%;
@@ -27,6 +30,7 @@ article {
   position: relative;
   width: 100%;
   height: 100%;
+  padding: 0;
 }
 img {
   position: absolute;
@@ -34,7 +38,7 @@ img {
   height: 100%;
 }
 p {
-  margin-left: 100px;
+  margin-left: 210px;
   width: 50%;
 }
 h2 {
@@ -45,17 +49,23 @@ h2 {
   width: 50px;
   height: 30px;
 }
-#amountBtns {
-  margin-right: 40px;
+
+#removeBtn {
+  margin-left: 44%;
 }
 #totalSum {
   margin-top: 1%;
-  margin-left: 65%;
+  margin-left: 62%;
   font-size: 30px;
+  width: 28%;
 }
 @media only screen and (max-width: 425px) {
   * {
     position: relative;
+  }
+  #bgImage {
+    margin-top: 0;
+    opacity: 0.7;
   }
   #cartTableDiv {
     position: relative;
@@ -82,6 +92,45 @@ h2 {
   p {
     margin-left: 0;
   }
+  #totalSum {
+    margin-top: 3%;
+  }
+  #removeBtn {
+    margin-left: 20%;
+  }
 }
 @media only screen and (max-width: 767px) {
+  * {
+    position: relative;
+  }
+  #cartTableDiv {
+    position: relative;
+    width: 100%;
+  }
+  #table {
+    width: 90%;
+    margin-left: 4%;
+  }
+  th {
+    width: 25%;
+  }
+  tr {
+    width: 100%;
+  }
+  td {
+    width: 10%;
+  }
+  #icon {
+    width: 20px;
+    height: 20px;
+  }
+  p {
+    margin-left: 0;
+  }
+  #totalSum {
+    margin-top: 3%;
+  }
+  #removeBtn {
+    margin-left: 20%;
+  }
 }

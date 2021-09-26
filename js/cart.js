@@ -14,7 +14,7 @@ for (let i = 0; i < 5; i++) {
   <td><h2>${products[i].price}</h2></td>
   </tr> `;
   cartItems.push(products[i]);
-  total.innerHTML = `<p> Total:${calculateSum()}₪</p>`;
+  total.innerHTML = `<h3> Total: ${calculateSum()}₪</h3>`;
 }
 console.log(cartItems);
 
