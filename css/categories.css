@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: var(--black);
+}
+#bedRCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  grid-column-gap: 2%;
+  grid-row-gap: 1%;
+  margin-left: 5%;
+}
+#livingCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  grid-column-gap: 2%;
+  grid-row-gap: 1%;
+  margin-left: 5%;
+}
+#kitchCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  grid-column-gap: 2%;
+  grid-row-gap: 1%;
+  margin-left: 5%;
+}
+#bathCont {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 90%;
+  grid-column-gap: 2%;
+  grid-row-gap: 1%;
+  margin-left: 5%;
+}
+section {
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid var(--black);
+}
+img {
+  width: 100%;
+  height: 240px;
+  border-radius: 10px;
+}
+article {
+  margin-bottom: 1rem;
+  padding: 2%;
+}
+p {
+  padding: 1%;
+}
+#icon {
+  width: 50px;
+  height: 30px;
+}
+#addBtn {
+  border-radius: 10px;
+  background-color: var(--black);
+  color: var(--white);
+}
+#like {
+  border-radius: 50%;
+  width: 40px;
+  margin-left: 40%;
+}
+#like img {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+}
+#counter {
+  display: inline-block;
+  margin: -61px;
+}
+
+section:hover {
+  box-shadow: 4px 4px 4px var(--gray);
+}
+@media only screen and (max-width: 425px) {
+  #bedRCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+  #livingCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+  #kitchCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+  #bathCont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 98%;
+  }
+  section {
+    border-radius: none;
+    width: 40%;
+    height: 70%;
+    margin: 1%;
+  }
+  article {
+    position: relative;
+    padding: 5%;
+    height: 60%;
+  }
+  img {
+    height: 40%;
+  }
+  #icon {
+    width: 20px;
+    height: 20px;
+  }
+  #like {
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -8%;
+    width: 30px;
+  }
+  #like img {
+    width: 20px;
+    height: 20px;
+  }
+  #addBtn {
+    position: absolute;
+  }
+  #counter {
+    padding-left: 20px;
+    margin: 0;
+  }
+  section:hover {
+    box-shadow: 2px 2px 2px var(--gray);
+  }
+}
+@media only screen and (max-width: 333px) {
+  #bedRCont {
+    display: flex;
+    flex-direction: column;
+    width: 98%;
+  }
+  section {
+    width: 90%;
+    height: 70%;
+  }
+  article {
+    position: relative;
+    height: 60%;
+    margin-top: 0;
+    padding: 3%;
+  }
+  img {
+    height: 30%;
+  }
+}
