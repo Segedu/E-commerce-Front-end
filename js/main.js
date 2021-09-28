@@ -2,45 +2,45 @@ var products = [
   {
     name: "bed",
     id: 1,
-    price: 900,
+    price: 899,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
+      "https://images.pexels.com/photos/916339/pexels-photo-916339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/916339/pexels-photo-916339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     ],
   },
   {
     name: "bed",
     id: 2,
-    price: 900,
+    price: 1299,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
+      "https://images.pexels.com/photos/3201761/pexels-photo-3201761.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/3201761/pexels-photo-3201761.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
     name: "bed",
     id: 3,
-    price: 900,
+    price: 999,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
+      "https://images.pexels.com/photos/4993094/pexels-photo-4993094.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/4993094/pexels-photo-4993094.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
     name: "bed",
     id: 4,
-    price: 900,
+    price: 2199,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
-      "https://www.ikea.co.il/images/Fittings/ikea/392/47/562/39247562_Big.jpg",
+      "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/1034584/pexels-photo-1034584.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
@@ -292,8 +292,8 @@ var products = [
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "living room",
     images: [
-      "https://cdn.pixabay.com/photo/2014/02/21/00/09/chair-270980__340.jpg",
-      "https://cdn.pixabay.com/photo/2014/02/21/00/09/chair-270980__340.jpg",
+      "https://images.pexels.com/photos/6373660/pexels-photo-6373660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "https://images.pexels.com/photos/6373660/pexels-photo-6373660.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
     ],
   },
   {
@@ -358,8 +358,8 @@ var products = [
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "living room",
     images: [
-      "https://images.pexels.com/photos/5469792/pexels-photo-5469792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/5469792/pexels-photo-5469792.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/154161/pexels-photo-154161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/154161/pexels-photo-154161.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
@@ -380,8 +380,8 @@ var products = [
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "living room",
     images: [
-      "https://images.pexels.com/photos/271696/pexels-photo-271696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/271696/pexels-photo-271696.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/1843655/pexels-photo-1843655.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
@@ -491,8 +491,8 @@ var products = [
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "kitchen",
     images: [
-      "https://images.pexels.com/photos/3829549/pexels-photo-3829549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/3829549/pexels-photo-3829549.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/213162/pexels-photo-213162.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
@@ -513,8 +513,8 @@ var products = [
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "kitchen",
     images: [
-      "https://images.pexels.com/photos/3829560/pexels-photo-3829560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-      "https://images.pexels.com/photos/3829560/pexels-photo-3829560.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/3829555/pexels-photo-3829555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
+      "https://images.pexels.com/photos/3829555/pexels-photo-3829555.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     ],
   },
   {
