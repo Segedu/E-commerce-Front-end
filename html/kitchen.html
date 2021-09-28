@@ -4,30 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>kitchen page</title>
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/categories.css">
+    <script src="https://kit.fontawesome.com/3f63fe4456.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="../index.html"><li>Home page</li></a>
-                <a href="./livingroom.html"><li>Living room</li></a>
-                <a href="./kitchen.html"><li>Kitchen</li></a>
-                <a href="./bedroom.html"><li>Bedroom</li></a>
-                <a href="./bath.html"><li>Bath</li></a>
-                <a href="./cart.html"><li id="cartIcon"><li id="itemCounter"></li><img id="icon" src="https://cdn-icons-png.flaticon.com/128/1656/1656850.png" alt="shopping bag icon"></li></a>              
+        <ul class="navBarCont" id="navLinks">
+            <a class="active" href="../index.html">Home Page</a>
+                <a href="./livingroom.html">Living room</a>
+                <a href="./kitchen.html">Kitchen</a>
+                <a href="./bedroom.html">Bedroom</a>
+                <a href="./bath.html">Bath</a>
+                <a href="./cart.html"><li id="itemCounter"></li><img id="cartIcon" src="https://cdn-icons-png.flaticon.com/128/1656/1656850.png" alt="shopping bag icon"></a> 
+                <a href="#"><li id="likeCounter"></li><img id="saveForLater" src="https://img.icons8.com/ios-glyphs/30/000000/like--v1.png"/></a>
+                <a href="#" class="icon" onclick="showMobileNav()"><i class="fa fa-bars"></i></a>           
             </ul>
-        </nav>
     </header>
     <main>
         <div id="homePageBG">
-            <img src="https://cdn.pixabay.com/photo/2021/01/17/16/55/kitchen-5925740__340.jpg" alt="kitchen">
-         </div>
+            <img src="https://cdn.pixabay.com/photo/2017/03/22/17/39/kitchen-2165756__480.jpg" alt="kitchen">
+        </div>
         <div id="kitchCont"></div>
     </main>
-    <footer></footer>
+    <footer> 
+        <a class="navBrand" href="">About us</a>       
+        <a class="navBrand" href="#">Branches</a>
+        <a class="navBrand" href="">Contact</a>
+        <a class="navBrand" href="">Work with us</a>
+        <a class="navBrand" href="https://www.facebook.com/" target="blank">
+           <img src="https://did.li/akTfT" alt= "facebook logo"></a>          
+        <a class="navBrand" href="https://www.whatsapp.com/?lang=en" target="blank">
+            <img src="https://did.li/AvlTY"  alt= "whatsapp logo"></a>
+        <a class="navBrand" href="https://www.instagram.com/" target="blank">
+            <img src="https://did.li/g4HNf"  alt= "instagram logo"></a>
+        <a class="navBrand" href="https://www.youtube.com/" target="blank">
+            <img src="https://did.li/mMwlC" alt="youtube logo"></a>
+    </footer>
     <script src="../js/main.js"></script>
     <script src="../js/functions.js"></script> 
 </body>

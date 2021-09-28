@@ -1,85 +1,97 @@
-* {
-  margin: 0;
-  padding: 0;
-  color: var(--black);
+li{
+  list-style: none;
+}
+#cartIcon {
+  width: 30px;
+  height: 25px;
+}
+#saveForLater {
+  width: 30px;
+  height: 30px;
+}
+#counter {
+  display: inline-block;
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 2%;
+}
+#saveItem {
+  display: inline-block;
+  position: absolute;
+  margin-top: -1%;
+  margin-left: 2%;
 }
 #bedRCont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
-  grid-column-gap: 2%;
+  width: 95%;
   grid-row-gap: 1%;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 #livingCont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
-  grid-column-gap: 2%;
+  width: 95%;
   grid-row-gap: 1%;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 #kitchCont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
-  grid-column-gap: 2%;
+  width: 95%;
   grid-row-gap: 1%;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 #bathCont {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  width: 90%;
-  grid-column-gap: 2%;
+  width: 95%;
   grid-row-gap: 1%;
-  margin-left: 5%;
+  margin-left: 3%;
 }
 section {
-  width: 90%;
-  border-radius: 10px;
-  border: 2px solid var(--black);
+  position: relative;
+  width: 95%;
 }
 img {
   width: 100%;
   height: 240px;
-  border-radius: 10px;
 }
 article {
+  position: relative;
   margin-bottom: 1rem;
   padding: 2%;
 }
 p {
   padding: 1%;
 }
-#icon {
-  width: 50px;
-  height: 30px;
-}
 #addBtn {
-  border-radius: 10px;
+  border-radius: 5px;
   background-color: var(--black);
   color: var(--white);
+  padding: 2%;
+  font-size: medium;
 }
-#like {
+#likeBtn {
+  position: absolute;
   border-radius: 50%;
   width: 40px;
-  margin-left: 40%;
+  margin-left: 30%;
+  margin-top: -2%;
 }
-#like img {
+
+#likeBtn img {
   width: 30px;
   height: 30px;
   padding-top: 4px;
 }
-#counter {
-  display: inline-block;
-  margin: -61px;
-}
-
 section:hover {
   box-shadow: 4px 4px 4px var(--gray);
 }
-@media only screen and (max-width: 425px) {
+footer{
+  margin-top: 8%;
+}
+@media only screen and (max-width: 770px) {
   #bedRCont {
     display: flex;
     flex-direction: row;
@@ -105,29 +117,51 @@ section:hover {
     width: 98%;
   }
   section {
+    width: 45%;
+    height: 70%;
+    padding: 2%;
+  }
+  #likeBtn {
+    border-radius: 50%;
+    width: 40px;
+    margin-left: 38%;
+  }
+  #cartIcon {
+    width: 20px;
+    height: 20px;
+  }
+  #counter {
+    margin-left: 2%;
+  }
+  #saveItem {
+    margin-left: 3%;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  section {
     width: 44%;
     height: 70%;
-    margin-bottom: 1%;
+    padding: 2%;
   }
   article {
     position: relative;
-    padding: 5%;
     height: 60%;
+    padding: 5%;
   }
   img {
     height: 40%;
   }
-  #icon {
+  #cartIcon {
     width: 20px;
     height: 20px;
   }
-  #like {
+  #likeBtn {
     position: absolute;
     margin-left: 75%;
-    margin-top: -8%;
     width: 30px;
   }
-  #like img {
+  #likeBtn img {
     width: 20px;
     height: 20px;
   }
@@ -136,6 +170,10 @@ section:hover {
   }
   #counter {
     padding-left: 20px;
+    margin: 0;
+  }
+  #saveItem {
+    padding-left: 30px;
     margin: 0;
   }
   section:hover {
@@ -151,6 +189,7 @@ section:hover {
   section {
     width: 90%;
     height: 70%;
+    padding: 4%;
   }
   article {
     position: relative;

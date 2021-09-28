@@ -9,41 +9,47 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3f63fe4456.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <a href="./index.html"><li>Home page</li></a>
-                <a href="./html/livingroom.html"><li>Living room</li></a>
-                <a href="./html/kitchen.html"><li>Kitchen</li></a>
-                <a href="./html/bedroom.html"><li>Bedroom</li></a>
-                <a href="./html/bath.html"><li>Bath</li></a>
-            </ul>
-        </nav>
-    </header>
-    
+        <ul class="navBarCont" id="navLinks">
+            <a class="active" href="./index.html">Home Page</a>
+            <a href="./html/livingroom.html">Living room</a>
+            <a href="./html/kitchen.html">Kitchen</a>
+            <a href="./html/bedroom.html">Bed Room</a>
+            <a href="./html/bath.html">Bath</a>
+            <a href="#" class="icon" onclick="showMobileNav()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </ul>
+  </header>
     <main>
         <div id="homePageBG">
            <img src="https://images.pexels.com/photos/1421177/pexels-photo-1421177.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="living room">
            <h2>Design your home</h2>
         </div>
         <section id="departCont">
-            <article class="departments" id="livingRoomCont"></article>
-            <article class="departments" id="bedRoomCont"></article>
-            <article class="departments" id="kitchenCont"></article>
-            <article class="departments" id="bathroomCont"></article>
+            <article class="departments" id="livingRoomCont"><a href="./html/livingroom.html">Living Room</a></article>
+            <article class="departments" id="bedRoomCont"><a href="./html/bedroom.html">Bed Room</a></article>
+            <article class="departments" id="kitchenCont"><a href="./html/kitchen.html">Kitchen</a></article>
+            <article class="departments" id="bathroomCont"><a href="./html/bath.html">Bath</a></article>
         </section>
-    
     </main>
-    <footer>
-        <!-- <ul>
-            <li>branches</li>
-            <li>contact us</li>
-            <li>work with us</li>
-        </ul> -->
+    <footer> 
+        <a class="navBrand" href="">About us</a>       
+        <a class="navBrand" href="#">Branches</a>
+        <a class="navBrand" href="">Contact</a>
+        <a class="navBrand" href="">Work with us</a>
+        <a class="navBrand" href="https://www.facebook.com/" target="blank">
+           <img src="https://did.li/akTfT" alt= "facebook logo"></a>          
+        <a class="navBrand" href="https://www.whatsapp.com/?lang=en" target="blank">
+            <img src="https://did.li/AvlTY"  alt= "whatsapp logo"></a>
+        <a class="navBrand" href="https://www.instagram.com/" target="blank">
+            <img src="https://did.li/g4HNf"  alt= "instagram logo"></a>
+        <a class="navBrand" href="https://www.youtube.com/" target="blank">
+            <img src="https://did.li/mMwlC" alt="youtube logo"></a>
     </footer>
-    <script src="./js/homePage.js"></script>
     <script src="./js/main.js"></script>
     <script src="./js/functions.js"></script>
 </body>
