@@ -31,14 +31,6 @@ printToWindowByCategory(livingCont, "living room");
 printToWindowByCategory(kitchCont, "kitchen");
 printToWindowByCategory(bathCont, "bath");
 
-function showMobileNav() {
-  var navLinks = document.getElementById("navLinks");
-  if (navLinks.className === "navBarCont") {
-    navLinks.className += " responsive";
-  } else {
-    navLinks.className = "navBarCont";
-  }
-}
 function addToCart(id) {
   for (let i = 0; i < products.length; i++) {
     if (id === products[i].id) {
@@ -54,5 +46,14 @@ function addTolikedItems(id) {
       likedItemsArray.push(products[i]);
       likeCounter.innerHTML = `<p id="saveItem">${likedItemsArray.length}</p>`;
     }
+  }
+}
+
+function showMobileNav() {
+  var navLinks = document.getElementById("navLinks");
+  if (navLinks.className === "navBarCont") {
+    navLinks.className += " responsive";
+  } else {
+    navLinks.className = "navBarCont";
   }
 }

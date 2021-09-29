@@ -1,4 +1,4 @@
-li{
+li {
   list-style: none;
 }
 #cartIcon {
@@ -79,7 +79,6 @@ p {
   margin-left: 30%;
   margin-top: -2%;
 }
-
 #likeBtn img {
   width: 30px;
   height: 30px;
@@ -88,7 +87,13 @@ p {
 section:hover {
   box-shadow: 4px 4px 4px var(--gray);
 }
-footer{
+.fas {
+  margin-left: 3%;
+  margin-top: 3%;
+  font-size: 45px;
+  color: var(--black);
+}
+footer {
   margin-top: 8%;
 }
 @media only screen and (max-width: 770px) {
