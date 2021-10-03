@@ -13,7 +13,7 @@ var products = [
   {
     name: "bed",
     id: 2,
-    price: 1299,
+    price: 799,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [
@@ -35,7 +35,7 @@ var products = [
   {
     name: "bed",
     id: 4,
-    price: 2199,
+    price: 899,
     discription: "Lorem, ipsum dolor. Maiores.",
     category: "bedroom",
     images: [

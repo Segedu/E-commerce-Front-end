@@ -90,7 +90,7 @@ section:hover {
 .fas {
   margin-left: 3%;
   margin-top: 3%;
-  font-size: 45px;
+  /* font-size: 45px; */
   color: var(--black);
 }
 footer {

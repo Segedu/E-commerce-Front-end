@@ -154,6 +154,9 @@ footer img {
   * {
     font-size: 15px;
   }
+  /* .navBarCont {
+    overflow: none;
+  } */
   #homePageBG img {
     width: 90%;
     height: 70%;
@@ -194,7 +197,7 @@ footer img {
     font-family: var(--fontFamily);
   }
   header {
-    width: 98%;
+    width: 100%;
   }
   a {
     padding: 1%;
