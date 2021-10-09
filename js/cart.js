@@ -2,6 +2,7 @@ var tableCartDiv = document.getElementById("tableCartDiv");
 var dataTable = document.getElementById("dataTable");
 var total = document.getElementById("totalSum");
 var cartItems = [];
+// var quantityArr = [];
 // var sum = 0;
 
 for (let i = 0; i < 3; i++) {
@@ -38,7 +39,8 @@ function addQuantity() {
       var totalPerItem = cartItems[i].price * quantity[i].value;
       cartItems[i].price = totalPerItem;
       priceCont[i].innerHTML = `${totalPerItem}₪`;
-      total.innerHTML = `<h3> Total: ${calculateSum()}₪</h3><article id="totCont"><button id="checkoutBtn">Checkout</button></article>`;
+      // quantityArr.push(price);
+      total.innerHTML = `<h3> Total: ${quantityArr.calculateSum()}₪</h3><article id="totCont"><button id="checkoutBtn">Checkout</button></article>`;
       cartItems[i].price = price;
     }
   }
