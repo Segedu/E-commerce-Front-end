@@ -14,7 +14,7 @@ function printToWindowByCategory(divElement, category) {
       <img src="${products[i].images[0]}"/>
       <article>
       <p>${products[i].name}</p>
-      <p>${products[i].discription}</p>
+      <p>${products[i].description}</p>
       <h1>${products[i].price + " ₪"}</h1>
       <button onclick="addToCart(${products[i].id})" id="addBtn">
       add to cart</button>

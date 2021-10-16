@@ -14,14 +14,13 @@
   background-color: var(--black);
   width: 70%;
   margin-left: 15%;
-  margin-top: 5%;
+  margin-top: 2%;
 }
 #tableHead li {
-  margin-left: 20%;
+  /* margin-left: 5%; */
   padding: 2%;
   color: var(--white);
 }
-
 #dataTable {
   position: relative;
   border: solid 4px var(--gray);
@@ -30,28 +29,35 @@
 }
 td {
   width: 100%;
+}
+#tabArticle {
+  position: relative;
+  display: flex;
+  margin-bottom: 1rem;
   padding: 1%;
 }
-article {
-  position: relative;
-  height: 100%;
-}
 img {
-  position: absolute;
-  width: 20%;
-  height: 100%;
+  display: inline;
+  width: 15%;
+  height: 110px;
 }
 input {
-  margin-left: 32%;
-  width: 5%;
+  margin-left: 8%;
+  margin-top: 1%;
+  width: 7%;
+  height: 6%;
 }
+
 p {
   display: inline;
-  margin-left: 25%;
+  margin-left: 7%;
+}
+#pName {
+  margin-left: 0;
 }
 h1 {
-  /* display: flex; */
-  margin-left: 26%;
+  display: inline;
+  margin-left: 15%;
 }
 #cartIcon {
   width: 30px;
@@ -61,12 +67,9 @@ h1 {
   margin-left: 3%;
 }
 #removeBtn {
-  position: absolute;
-  margin-left: 90%;
-  /* margin-top: -3%; */
-  /* padding: 1%; */
+  margin-left: 15%;
+  height: 32%;
 }
-
 #totalSum {
   border-bottom: 2px solid var(--black);
   margin-top: 1%;
@@ -80,11 +83,11 @@ h1 {
   padding: 3%;
   margin-left: 75%;
 }
-footer {
+/* footer {
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */
 @media only screen and (max-width: 425px) {
   * {
     position: relative;
@@ -101,9 +104,6 @@ footer {
     width: 20px;
     height: 20px;
   }
-  p {
-    padding-top: 5%;
-  }
   #totalSum {
     margin-top: 3%;
   }
@@ -111,13 +111,13 @@ footer {
     padding: 2%;
     margin-left: 30%;
   }
-  footer {
+  /* footer {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     margin-left: 20%;
     justify-content: space-evenly;
-  }
+  } */
 }
 @media only screen and (max-width: 767px) {
   * {
@@ -128,7 +128,7 @@ footer {
   }
   #tableHead li {
     margin-left: 0;
-    padding: 3%;
+    padding: 2%;
   }
   #tableCartDiv {
     position: relative;
@@ -136,6 +136,7 @@ footer {
   }
   #dataTable {
     width: 90%;
+    height: 50vh;
     margin-left: 5%;
   }
   td {
@@ -150,33 +151,32 @@ footer {
     margin-left: 0%;
     margin-top: -4%;
   }
-  article {
+  #tabArticle {
     position: relative;
-    background-color: #c2c1a5;
-    padding: 0;
-    margin: 0;
-    height: 91px;
-  }
-  #totCont {
-    height: 30px;
-    background: none;
+    display: flex;
+    margin-bottom: 1rem;
+    padding: 1%;
   }
   img {
-    position: absolute;
-    width: 20%;
-    height: 100%;
+    width: 22%;
+    height: 93%;
+  }
+  #pName {
+    display: none;
   }
   p {
     display: inline;
-    margin-left: 21%;
-  }
-  h1 {
-    margin-left: 22%;
+    margin-left: 7%;
   }
   input {
-    margin-left: 20%;
+    margin-left: 9%;
     margin-top: 1%;
-    width: 10%;
+    width: 11%;
+    padding: -1%;
+    height: 6%;
+  }
+  h1 {
+    margin-left: 7%;
   }
   #removeBtn {
     position: absolute;
@@ -185,11 +185,15 @@ footer {
   #totalSum {
     margin-top: 1%;
   }
-  footer {
+  #totCont {
+    height: 30px;
+    background: none;
+  }
+  /* footer {
     display: flex;
     flex-wrap: wrap;
     width: 50%;
     margin-left: 20%;
     justify-content: space-evenly;
-  }
+  } */
 }

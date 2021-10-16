@@ -84,8 +84,11 @@ body {
 }
 footer {
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
+  width: 60%;
+  margin-left: 20%;
 }
 footer .navBrand {
   color: var(--black);
@@ -93,8 +96,13 @@ footer .navBrand {
   text-decoration: none;
 }
 footer img {
-  width: 40px;
-  height: 40px;
+  width: 35px;
+  height: 35px;
+}
+span {
+  display: flex;
+  justify-items: center;
+  font-size: smaller;
 }
 #homePageBG h2 {
   position: absolute;
@@ -150,18 +158,21 @@ footer img {
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  footer {
+    width: 40%;
+    margin-left: 30%;
+  }
+}
+
 @media only screen and (max-width: 767px) {
   * {
     font-size: 15px;
   }
-  /* .navBarCont {
-    overflow: none;
-  } */
   #homePageBG img {
     width: 90%;
     height: 70%;
   }
-
   #homePageBG {
     position: relative;
   }
@@ -200,8 +211,7 @@ footer img {
     width: 100%;
   }
   a {
-    padding: 1%;
-    font-size: 15px;
+    font-size: 12px;
   }
   #homePageBG img {
     height: 80%;
@@ -228,7 +238,15 @@ footer img {
   footer {
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    margin-left: 20%;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media only screen and (max-width: 333px) {
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin-left: 5%;
   }
 }

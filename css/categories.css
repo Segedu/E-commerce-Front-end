@@ -90,12 +90,9 @@ section:hover {
 .fas {
   margin-left: 3%;
   margin-top: 3%;
-  /* font-size: 45px; */
   color: var(--black);
 }
-footer {
-  margin-top: 8%;
-}
+
 @media only screen and (max-width: 770px) {
   #bedRCont {
     display: flex;
