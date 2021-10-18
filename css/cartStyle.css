@@ -17,7 +17,6 @@
   margin-top: 2%;
 }
 #tableHead li {
-  /* margin-left: 5%; */
   padding: 2%;
   color: var(--white);
 }
@@ -83,11 +82,6 @@ h1 {
   padding: 3%;
   margin-left: 75%;
 }
-/* footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 @media only screen and (max-width: 425px) {
   * {
     position: relative;
@@ -111,13 +105,6 @@ h1 {
     padding: 2%;
     margin-left: 30%;
   }
-  /* footer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin-left: 20%;
-    justify-content: space-evenly;
-  } */
 }
 @media only screen and (max-width: 767px) {
   * {
@@ -189,11 +176,4 @@ h1 {
     height: 30px;
     background: none;
   }
-  /* footer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 50%;
-    margin-left: 20%;
-    justify-content: space-evenly;
-  } */
 }
